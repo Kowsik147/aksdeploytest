@@ -9,4 +9,4 @@ RUN pip install -r requirement.txt
 COPY . .
 EXPOSE 5000
 
-CMD ["python", "hello-world.py"]
+CMD ["python", "aks-deploy-test.py"]
